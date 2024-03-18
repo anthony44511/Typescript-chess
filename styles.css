@@ -1,10 +1,17 @@
 body {
-    background-color: #051f20;
-  } 
+  
+  background: linear-gradient(to right, #28282B   50%, pink 50%);
+  
+ }
+ 
   .title-container {
     text-align: center; 
 }
 
 .title-container h1 {
     color: crimson; 
+}
+
+.title-container h2 {
+  color: #7a5901; 
 }
