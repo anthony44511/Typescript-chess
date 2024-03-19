@@ -122,7 +122,8 @@ window.addEventListener('resize', function() {
 });
 
 window.addEventListener('mouseout', function() {
-    mouse.x = mouse.y = 0; 
+    mouse.x = undefined;
+    mouse.y = undefined;
 });
 
 init();
