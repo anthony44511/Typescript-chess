@@ -14,8 +14,8 @@ canvas.height = window.innerHeight;
 let particlesArray = []; 
 
 let mouse = {
-    x: 0,
-    y: 0,
+    x: null,
+    y: null,
     radius: (canvas.height / 80) * (canvas.width / 80)
 }
 
